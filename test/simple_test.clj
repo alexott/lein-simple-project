@@ -3,6 +3,6 @@
   (:use simple))
 
 (deftest simple-test
-  (is (hello) "Hello world!")
-  (is (hello "test") "Hello test!")
+  (is (= (hello) "Hello world!"))
+  (is (= (hello "test") "Hello test!"))
   )
